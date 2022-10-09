@@ -5,7 +5,7 @@ let allText = [
   "It made me think about the complexities of language and what creative opportunitites there may be for trans-human polylingualism",
   "Do you feel this captures the core interests of your work?",
   "This is an invitation for you to deepen your exploration of 3D artificats...",
-  "For this assignment #2 I need like you use an online environment to challenge an audience's relationship to physical objects",
+  "For this assignment #2 I would like you use an online environment to challenge an audience's relationship to physical objects",
   "How do 3D models, avatars, or digital distortions, reflect something new about a physical origin?",
   "Or rather, what can physical objects say to us about a digital doppleganger?",
   "I would like you to use the form of the website as medium for your exploration",
@@ -37,16 +37,4 @@ function draw() {
   background(0, 5);
   fill(255, random(3));
   ellipse(width / 2, height / 2, random(width));
-  // let status = localStorage.getItem("program status");
-
-  // if (status == "ended") {
-  //   newWindow.location.replace("../../download/index.html");
-  //   newWindow.moveTo(500, 200);
-  //   newWindow.resizeTo(400, 450);
-  //   newWindow.focus();
-  // }
-
-  // if (newWindow.closed) {
-  //   localStorage.setItem("program status", "begun");
-  // }
 }

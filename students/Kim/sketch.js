@@ -1,16 +1,16 @@
 let allText = [
   "Kim",
   "This is your Assignment 2 prompt",
-  "I appreciate the subtle ways in which you challenged the institution of the museum in your first assignment",
-  "It made me think about the practices and formal expectations of professionalization as an artist",
-  "Do you feel caught in a loop of professionalization?",
-  "This is an invitation for you to deepen your exploration of humor and trickery...",
-  "For this assignment #2 I need like you to create something 'unprofessional'",
-  "Don't fall into traps of cleverness and one liners. Challenge for you to sincerely considering what might feel risky or dangerous to the standards you hold for your work.",
-  "Try to be open to an open ended outcome.",
-  "Formally, I would like you to use websites and web languages as medium for your exploration",
+  "I appreciated the elegance of how you positoned data and intimacy in relation within your first assignment.",
+  "I was struck by the depth of conversation the class seemed ready to explore after considering how human representation is mediated through our technology",
+  "What further physical sensory experiences can be teased out through this research?",
+  "This assignment is an invitation to further experiment with telematic sensation...",
+  "For this assignment #2 I would like you to find the boundaries of a browser window's personal space.",
+  "What are the limitations of privacy, comfort, intimacy, or health that can be tested?",
+  "Try to identify the poetic spaces that emerge from a browser window's bodily experience.",
+  "I would like you present your work as a live website using creative code.",
   "You can use any tools or processes you would like.",
-  "However, I would like you to challenge yourself to bend your own expectations of how you think a webpage should be used.",
+  "Challenge yourself to play with verious means of interaction. Mice, keyboards, screens, microphones...",
   "Be prepared to share your finished work to the class with as little introduction before hand as possible",
   "Good luck!",
   "If you want to meet to discuss your ideas or trouble shoot, contact myself or Nimo",
@@ -37,16 +37,4 @@ function draw() {
   background(0, 5);
   fill(255, random(3));
   ellipse(width / 2, height / 2, random(width));
-  // let status = localStorage.getItem("program status");
-
-  // if (status == "ended") {
-  //   newWindow.location.replace("../../download/index.html");
-  //   newWindow.moveTo(500, 200);
-  //   newWindow.resizeTo(400, 450);
-  //   newWindow.focus();
-  // }
-
-  // if (newWindow.closed) {
-  //   localStorage.setItem("program status", "begun");
-  // }
 }
