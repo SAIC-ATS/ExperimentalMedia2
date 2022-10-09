@@ -37,16 +37,16 @@ function draw() {
   background(0, 5);
   fill(255, random(3));
   ellipse(width / 2, height / 2, random(width));
-  let status = localStorage.getItem("program status");
+  //let status = localStorage.getItem("program status");
 
-  if (status == "ended") {
-    newWindow.location.replace("../../download/index.html");
-    newWindow.moveTo(500, 200);
-    newWindow.resizeTo(400, 450);
-    newWindow.focus();
-  }
+  // if (status == "ended") {
+  //   newWindow.location.replace("../../download/index.html");
+  //   newWindow.moveTo(500, 200);
+  //   newWindow.resizeTo(400, 450);
+  //   newWindow.focus();
+  // }
 
-  if (newWindow.closed) {
-    localStorage.setItem("program status", "begun");
-  }
+  // if (newWindow.closed) {
+  //   localStorage.setItem("program status", "begun");
+  // }
 }

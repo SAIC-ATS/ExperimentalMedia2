@@ -245,6 +245,8 @@ function mouseClicked() {
     prompt2();
   } else if (curprompt > 6) {
     localStorage.setItem("program status", "ended");
+    oldWin = window.open("../download/index.html", "download", params6);
+    window.self.close();
   }
   print(curprompt);
 }

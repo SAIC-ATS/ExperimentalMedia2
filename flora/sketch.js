@@ -74,7 +74,7 @@ function draw() {
 
 function mouseClicked() {
   let button = createButton("pow!");
-  button.position(width - 100, height - 20);
+  button.position(width - 100, height * 0.75);
   button.mousePressed(terminate);
 }
 
