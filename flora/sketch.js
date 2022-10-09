@@ -1,5 +1,4 @@
 //images included from the biodiversity heritage library https://www.biodiversitylibrary.org/page/48296678#page/1/mode/1up
-
 //^Note how to give credit when credit is due
 
 //Declare your variables
@@ -14,6 +13,16 @@ let str;
 let prompt = "";
 
 //initiate your program
+function preload() {
+  for (i = 1; i < 13; i++) {
+    str = "assets/wc" + nf(i) + ".jpeg";
+    //note how to upload images to the folder contents to the left <
+    img[0] = loadImage("assets/wc14.jpeg"); //loading images.
+    //Note 0 or 'null' cannot be added into the string above
+    img[i] = loadImage(str);
+  }
+}
+
 function setup() {
   if (localStorage.getItem("prompt10") != null) {
     prompt = localStorage.getItem("prompt10");
@@ -28,11 +37,6 @@ function setup() {
   noStroke();
   //assign values to our variables using a for loop
   for (i = 1; i < 13; i++) {
-    str = "assets/wc" + nf(i) + ".jpeg";
-    //note how to upload images to the folder contents to the left <
-    img[0] = loadImage("assets/wc14.jpeg"); //loading images.
-    //Note 0 or 'null' cannot be added into the string above
-    img[i] = loadImage(str);
     speedX[i] = random(-5, 5); //random ranges
     speedY[i] = random(-5, 5);
     xpos[i] = width / 2; //find the center of the canvas
