@@ -81,3 +81,7 @@ function mouseClicked() {
 function terminate() {
   window.top.close();
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
