@@ -29,7 +29,7 @@ function mouseClicked() {
   background(255, 150);
   see++;
   text(prompt, width / 4, height / 3, width / 2);
-  if (see > 5) {
+  if (see > 2) {
     let button = createButton("pow!");
     button.position(width - 200, height - 60);
     button.mousePressed(terminate);

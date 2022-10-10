@@ -87,13 +87,13 @@ function draw() {
   }
 
   if (mouseIsPressed) {
-    fill(255, 6);
+    fill(255, 12);
     stroke(255, 6);
     strokeWeight(random(10));
     ellipse(mouseX, mouseY, random(width));
     balloon++;
   }
-  if (balloon > 30) {
+  if (balloon > 15) {
     print("pop");
     let button = createButton("pow!");
     button.position(width - 100, 20);
