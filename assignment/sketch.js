@@ -7,6 +7,7 @@ let int = 0;
 let winX = 3;
 let randomrunner = 0;
 let runprompt = false;
+let finalbtn = false;
 let curprompt = 0;
 let run = 0;
 let bg = 255;
@@ -117,6 +118,10 @@ function draw() {
   }
 
   text(txt, 0, 50, width);
+
+  if (finalbtn) {
+    ellipse(width / 2, height / 2, random(50, 200));
+  }
 }
 
 function promptA() {
@@ -230,7 +235,7 @@ function prompt7() {
   angleMode(DEGREES);
   txt = alltext[14];
   fill(255);
-  text(txt, 0, 250, width);
+  finalbtn = true;
 }
 
 function mouseClicked() {
@@ -243,7 +248,7 @@ function mouseClicked() {
       }
     }
     prompt2();
-  } else if (curprompt > 5) {
+  } else if (curprompt > 6) {
     localStorage.setItem("program status", "ended");
     oldWin = window.open("../download/index.html", "download", params6);
     window.self.close();
