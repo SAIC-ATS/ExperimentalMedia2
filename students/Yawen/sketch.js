@@ -10,7 +10,7 @@ let allText = [
   "How can you craft an opportunity for you to experience this when you present your work? Be open to an open ended outcome.",
   "Formally, you can experiment with any media that will aid you in this pursuit of JOY.",
   "As you consider what medium you will choose, consider the possibility of how web code or digital techniques can visualize the 'inner you' to the 'outer you'.",
-  "Challenge yourself to bend your own expectations of what you can cause yourself to experience through your own work.",
+  "Challenge yourself to bend your own expectations of what you cause yourself to experience in your own work.",
   "Be prepared to share your finished work to the class with as little introduction before hand as possible",
   "Good luck!",
   "If you want to meet to discuss your ideas or trouble shoot, contact myself or Nimo",
