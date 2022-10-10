@@ -14,7 +14,7 @@ function draw() {
   text(txt, width / 4, height / 3, width / 2);
 }
 
-function save() {
+function saveMe() {
   txt = "Please check your downloads folder for the file: 'assignmnt2.txt'";
   if (btn == "close") {
     window.self.close();
