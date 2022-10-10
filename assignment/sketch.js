@@ -138,7 +138,7 @@ function prompt1() {
       winSet[i] = window.open("../running/index.html", "running" + i, params);
       let r = random(-50, 0);
       winSet[i].moveBy(r * i, random(100, 180) * i);
-      winSet[i].textOver = output[i];
+      winSet[i].textOver = output[4 - i];
     }
   }
   clear();
