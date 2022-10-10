@@ -1,10 +1,11 @@
 let txt = "";
 let btn = "SAVE ME!";
+const assignment = JSON.parse(localStorage.getItem("prompts"));
+
 function setup() {
-  const assignment = JSON.parse(localStorage.getItem("prompts"));
   createCanvas(400, 400);
   let button = createButton(btn);
-  button.position(width / 2 - 20, height / 2 - 10);
+  button.position(width / 2 - 50, height / 2 + 50);
   button.mousePressed(saveMe);
   textSize(20);
 }
