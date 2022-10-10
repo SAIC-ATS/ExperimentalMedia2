@@ -213,7 +213,7 @@ function prompt6() {
   clear();
   background(255, random(200), random(200), 10);
   txt = alltext[13];
-  text(txt, 0, 250, width);
+  //text(txt, 0, 250, width);
 
   oldWin = win[2];
   oldWin = window.open("../glitch/index.html", "glitch", params5);
