@@ -223,6 +223,9 @@ function prompt7() {
   curprompt = 7;
   bg = 0;
   b = true;
+  clear();
+  background(255, random(200), random(200), 10);
+  txt = alltext[14];
   noStroke();
   let ts = map(windowWidth, 0, 4000, 12, 175);
   fill(200, 200, 0, 100);
@@ -233,7 +236,6 @@ function prompt7() {
   c1 = color(random(255), random(255), random(250), 0.5);
   c2 = color(random(255), random(255), random(250), 0.5);
   angleMode(DEGREES);
-  txt = alltext[14];
   fill(255);
   finalbtn = true;
 }
