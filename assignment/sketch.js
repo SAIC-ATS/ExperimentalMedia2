@@ -229,7 +229,7 @@ function prompt7() {
   b = true;
   clear();
   background(255, random(200), random(200), 10);
-  txt = alltext[14];
+  txt = alltext[15];
   noStroke();
   let ts = map(windowWidth, 0, 4000, 12, 175);
   fill(200, 200, 0, 100);
