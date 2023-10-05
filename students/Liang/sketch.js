@@ -11,7 +11,7 @@ let allText = [
   "Although you should consider the narrative possibilities of mechanic as metaphor, do not create a game for this assignment.",
   "Be prepared to present your work so this small group can perform or experience your work directly.",
   "We will be sharing assignment #2 in small critique groups on October 27th",
-  "Consider media like websites, phone applications, browser plugins, board games, toys etc",
+  "Consider media like websites, phone applications, browser plugins, etc",
   "A link or documentation of your work should be uploaded to canvas to receive credit",
   "Consider the ways that rules can govern our behavior without inviting us to play.",
   "Good luck!",
