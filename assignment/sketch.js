@@ -204,8 +204,8 @@ function prompt5() {
 
   oldWin = win[2];
   oldWin = window.open("../clouds/index.html", "clouds", params3);
-  while (int < 200) {
-    oldWin.resizeBy(8, 6);
+  while (int < 100) {
+    oldWin.resizeBy(12, 8);
     oldWin.moveBy(10, -1);
     int++;
   }
