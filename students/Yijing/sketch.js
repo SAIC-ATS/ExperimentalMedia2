@@ -10,7 +10,7 @@ let allText = [
   "Consider using interaction as a tool in your work",
   "What kind of behaviors can you compell the audience to perform?",
   "We will be sharing assignment #2 in small critique groups on October 27th",
-  "Be prepared to present your work so this small group can perform or experience it directly.",
+  "Be prepared to present your work so this small group can perform or experience your work directly.",
   "Consider media like websites, phone applications, browser plugins, board games, toys etc",
   "A link or documentation of your work should be uploaded to canvas to receive credit",
   "click, touch, speak, listen, look, press, shake, run, wait...",

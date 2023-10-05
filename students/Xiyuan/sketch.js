@@ -10,7 +10,7 @@ let allText = [
   "Consider the role that your audience plays in the world you create. What consequences will their movement, clicks, or patience produce?",
   "How can you shift our focus regarding what is possible within our view of reality?",
   "We will be sharing assignment #2 in small critique groups on October 27th",
-  "Be prepared to present your work so this small group can perform or experience it directly.",
+  "Be prepared to present your work so this small group can perform or experience your work directly.",
   "Consider media like websites, phone applications, browser plugins, board games, toys etc",
   "A link or documentation of your work should be uploaded to canvas to receive credit",
   "Consider the environmental impact of media like websites, phone applications, browser plugins, board games, toys etc",
