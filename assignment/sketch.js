@@ -21,7 +21,7 @@ let y = 1;
 let easing = 0.01;
 let angle = 0.0;
 let jitter = 0.1;
-let params = `width=210,height=200,left=2000,top=0`;
+let params = `width=210,height=200,left=1280,top=0`;
 let params1 = `width=500,height=1000,left=0,top=0`;
 let params2 = `width=1000,height=250,left=50,top=0`;
 let params3 = `width=350,height=350, left=300, top=300`;
@@ -143,13 +143,17 @@ function prompt1() {
   }
   clear();
   background(255, random(200), random(200), 10);
-  while (winX > 2) {
-    for (let i = 0; i < 5; i++) {
-      let r = random(-2, 1);
-      winSet[i].moveBy(r, 0);
+  if (winSet[0].screenX < 1300) {
+    while (winX > 2) {
+      for (let i = 0; i < 5; i++) {
+        let r = random(-2, 1);
+        winSet[i].moveBy(r, 0);
+      }
+      run++;
+      winX = winSet[0].screenX;
     }
-    run++;
-    winX = winSet[0].screenX;
+  } else {
+    print(winSet[0].screenX);
   }
 }
 
@@ -200,8 +204,8 @@ function prompt5() {
 
   oldWin = win[2];
   oldWin = window.open("../clouds/index.html", "clouds", params3);
-  while (int < 300) {
-    oldWin.resizeBy(6, 4);
+  while (int < 200) {
+    oldWin.resizeBy(8, 6);
     oldWin.moveBy(10, -1);
     int++;
   }
