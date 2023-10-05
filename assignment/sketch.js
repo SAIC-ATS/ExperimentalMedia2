@@ -261,3 +261,7 @@ function mouseClicked() {
   }
   print(curprompt);
 }
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
