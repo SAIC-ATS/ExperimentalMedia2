@@ -126,6 +126,7 @@ function draw() {
 }
 
 function promptA() {
+  windowResized();
   button.remove();
   if (!alert(alltext[1])) {
     prompt1();
