@@ -2,16 +2,21 @@ let txt = "";
 let btn = "SAVE ME!";
 const assignment = JSON.parse(localStorage.getItem("prompts"));
 let x, y;
+let canvas;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   let button = createButton(btn);
   button.position(width / 2 - 50, height / 2 + 50);
   button.mousePressed(saveMe);
   textSize(20);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
+  if (canvas.width != window.width) {
+    resizeCanvas(windowWidth, windowHeight);
+  }
   x = map(mouseX, 0, width, 50, 200);
   y = map(mouseY, 0, height, 100, 20);
   background(255, x, y);

@@ -50,7 +50,7 @@ function setup() {
   noStroke();
   textSize(28);
   textAlign(CENTER);
-  windowResized();
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -126,7 +126,7 @@ function draw() {
 }
 
 function promptA() {
-  windowResized();
+  resizeCanvas(windowWidth, windowHeight);
   button.remove();
   if (!alert(alltext[1])) {
     prompt1();
@@ -134,6 +134,8 @@ function promptA() {
 }
 
 function prompt1() {
+  resizeCanvas(windowWidth, windowHeight);
+
   curprompt = 1;
   if (!alert(alltext[2])) {
     for (let i = 0; i < 5; i++) {
@@ -160,6 +162,8 @@ function prompt1() {
 }
 
 function prompt2() {
+  resizeCanvas(windowWidth, windowHeight);
+
   localStorage.setItem("prompt6", alltext[6]);
   curprompt = 2;
   clear();
@@ -173,6 +177,8 @@ function prompt2() {
 }
 
 function prompt3() {
+  resizeCanvas(windowWidth, windowHeight);
+
   localStorage.setItem("prompt8", alltext[8]);
   curprompt = 3;
   clear();
@@ -185,6 +191,8 @@ function prompt3() {
 }
 
 function prompt4() {
+  resizeCanvas(windowWidth, windowHeight);
+
   localStorage.setItem("prompt10", alltext[10]);
   curprompt = 4;
   clear();
@@ -197,6 +205,8 @@ function prompt4() {
 }
 
 function prompt5() {
+  resizeCanvas(windowWidth, windowHeight);
+
   localStorage.setItem("prompt11", alltext[11]);
   curprompt = 5;
   clear();
@@ -214,6 +224,8 @@ function prompt5() {
 }
 
 function prompt6() {
+  resizeCanvas(windowWidth, windowHeight);
+
   localStorage.setItem("prompt14", alltext[14]);
   curprompt = 6;
   clear();
@@ -226,6 +238,8 @@ function prompt6() {
 }
 
 function prompt7() {
+  resizeCanvas(windowWidth, windowHeight);
+
   curprompt = 7;
   bg = 0;
   b = true;
