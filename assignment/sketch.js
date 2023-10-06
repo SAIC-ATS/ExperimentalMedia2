@@ -50,6 +50,7 @@ function setup() {
   noStroke();
   textSize(28);
   textAlign(CENTER);
+  windowResized();
 }
 
 function draw() {
